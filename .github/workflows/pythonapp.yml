@@ -24,5 +24,5 @@ jobs:
       run: |
         cd ./python
         echo "${{ secrets.DH }}" | docker login -u "edderssteve" --password-stdin
-        docker image build -t edderssteve/gitops:hellov1.8 .
-        docker push edderssteve/gitops:hellov1.8
+        docker image build -t edderssteve/gitops:hellov1.9 .
+        docker push edderssteve/gitops:hellov1.9
